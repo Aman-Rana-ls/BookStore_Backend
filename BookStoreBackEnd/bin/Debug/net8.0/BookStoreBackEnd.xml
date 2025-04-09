@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BookStoreBackEnd</name>
+    </assembly>
+    <members>
+        <member name="M:BookStoreBackEnd.Controllers.AdminUserController.Register(ModelLayer.InputModel)">
+            <summary>
+            Registers a new admin user in the system.
+            </summary>
+            <param name="inputModel">Admin user registration details</param>
+            <returns>A response indicating the result of the registration process</returns>
+        </member>
+        <member name="M:BookStoreBackEnd.Controllers.AdminUserController.Login(System.String,System.String)">
+            <summary>
+            Authenticates an admin user and returns a JWT token.
+            </summary>
+            <param name="email">Admin email</param>
+            <param name="password">Admin password</param>
+            <returns>JWT token if authentication is successful</returns>
+        </member>
+        <member name="M:BookStoreBackEnd.Controllers.AdminUserController.ForgetPasswordAsync(System.String)">
+            <summary>
+            Sends an OTP to the admin's registered email for password reset.
+            </summary>
+            <param name="email">Admin user's email address</param>
+            <returns>A response indicating whether the OTP was sent successfully</returns>
+        </member>
+        <member name="M:BookStoreBackEnd.Controllers.AdminUserController.ResetPasswordWithOtpAsync(System.String,System.String,System.String)">
+            <summary>
+            Resets admin password using the OTP sent to email.
+            </summary>
+            <param name="email">Admin user's email address</param>
+            <param name="otp">One-time password</param>
+            <param name="newPassword">New password to be set</param>
+            <returns>A response indicating whether the password was reset successfully</returns>
+        </member>
+        <member name="T:BookStoreBackEnd.Controllers.CartController">
+            <summary>
+            Controller for managing shopping cart operations
+            </summary>
+        </member>
+        <member name="M:BookStoreBackEnd.Controllers.CartController.AddToCart(System.Int32)">
+            <summary>
+            Adds a book to the user's shopping cart
+            </summary>
+            <param name="bookId">ID of the book to add</param>
+            <returns>Response indicating success or failure</returns>
+        </member>
+        <member name="M:BookStoreBackEnd.Controllers.CartController.GetUserCart">
+            <summary>
+            Retrieves all items in the user's shopping cart
+            </summary>
+            <returns>List of cart items</returns>
+        </member>
+        <member name="M:BookStoreBackEnd.Controllers.CartController.UpdateCartItem(ModelLayer.UpdateCartItemModel)">
+            <summary>
+            Updates quantity or purchase status of a cart item
+            </summary>
+            <param name="updateModel">Model containing book ID, quantity, and purchase status</param>
+            <returns>Response indicating success or failure</returns>
+        </member>
+        <member name="M:BookStoreBackEnd.Controllers.CartController.RemoveFromCart(System.Int32)">
+            <summary>
+            Removes a book from the user's shopping cart
+            </summary>
+            <param name="bookId">ID of the book to remove</param>
+            <returns>Response indicating success or failure</returns>
+        </member>
+        <member name="T:BookStoreBackEnd.Controllers.UserController">
+            <summary>
+            Controller for handling user authentication and account management operations
+            </summary>
+        </member>
+        <member name="M:BookStoreBackEnd.Controllers.UserController.#ctor(BusinessLayer.Interfaces.IUserBL,Microsoft.Extensions.Logging.ILogger{BookStoreBackEnd.Controllers.UserController})">
+            <summary>
+            Initializes a new instance of the UserController
+            </summary>
+            <param name="userBL">Business layer service for user operations</param>
+            <param name="logger">Logger for logging information</param>
+        </member>
+        <member name="M:BookStoreBackEnd.Controllers.UserController.Register(ModelLayer.InputModel)">
+            <summary>
+            Registers a new user account
+            </summary>
+        </member>
+        <member name="M:BookStoreBackEnd.Controllers.UserController.Login(System.String,System.String)">
+            <summary>
+            Authenticates a user and generates an access token
+            </summary>
+        </member>
+        <member name="M:BookStoreBackEnd.Controllers.UserController.ForgetPassword(System.String)">
+            <summary>
+            Initiates password reset process by sending OTP to user's email
+            </summary>
+        </member>
+        <member name="M:BookStoreBackEnd.Controllers.UserController.ResetPasswordWithOtp(System.String,System.String,System.String)">
+            <summary>
+            Resets user password using the OTP received via email
+            </summary>
+        </member>
+        <member name="M:BookStoreBackEnd.Controllers.WishListController.GetWishlistItems">
+            <summary>
+            Retrieves the wishlist items for the logged-in user.
+            </summary>
+        </member>
+        <member name="M:BookStoreBackEnd.Controllers.WishListController.AddToWishlist(System.Int32)">
+            <summary>
+            Adds a book to the wishlist for the logged-in user.
+            </summary>
+        </member>
+        <member name="M:BookStoreBackEnd.Controllers.WishListController.RemoveFromWishlist(System.Int32)">
+            <summary>
+            Removes a book from the wishlist of the logged-in user.
+            </summary>
+        </member>
+        <member name="M:BookStoreBackEnd.Controllers.WishListController.MoveToCart(System.Int32)">
+            <summary>
+            Moves a book from the wishlist to the cart.
+            </summary>
+        </member>
+        <member name="T:BookStore.Controllers.BookController">
+            <summary>
+            Controller for managing books in the bookstore.
+            </summary>
+        </member>
+        <member name="M:BookStore.Controllers.BookController.GetAllBooks">
+            <summary>
+            Retrieves all books.
+            </summary>
+            <returns>A list of all books.</returns>
+        </member>
+        <member name="M:BookStore.Controllers.BookController.GetBookById(System.Int32)">
+            <summary>
+            Retrieves a specific book by ID.
+            </summary>
+            <param name="id">Book ID</param>
+            <returns>The book with the given ID if found.</returns>
+        </member>
+        <member name="M:BookStore.Controllers.BookController.AddBook(ModelLayer.BookInputModel)">
+            <summary>
+            Adds a new book. Only accessible by Admin.
+            </summary>
+            <param name="book">The book data to be added</param>
+            <returns>The added book</returns>
+        </member>
+        <member name="M:BookStore.Controllers.BookController.DeleteBook(System.Int32)">
+            <summary>
+            Deletes a book by ID. Only accessible by Admin.
+            </summary>
+            <param name="id">ID of the book to delete</param>
+            <returns>Status of the delete operation</returns>
+        </member>
+    </members>
+</doc>

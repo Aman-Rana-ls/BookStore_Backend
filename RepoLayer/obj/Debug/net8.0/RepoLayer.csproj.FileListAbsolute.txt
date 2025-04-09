@@ -1,0 +1,17 @@
+C:\Users\Aman Rana\Desktop\BookStore\BookStoreBackEnd\repolayer\bin\Debug\net8.0\RepoLayer.deps.json
+C:\Users\Aman Rana\Desktop\BookStore\BookStoreBackEnd\repolayer\bin\Debug\net8.0\RepoLayer.runtimeconfig.json
+C:\Users\Aman Rana\Desktop\BookStore\BookStoreBackEnd\repolayer\bin\Debug\net8.0\RepoLayer.dll
+C:\Users\Aman Rana\Desktop\BookStore\BookStoreBackEnd\repolayer\bin\Debug\net8.0\RepoLayer.pdb
+C:\Users\Aman Rana\Desktop\BookStore\BookStoreBackEnd\repolayer\bin\Debug\net8.0\ModelLayer.dll
+C:\Users\Aman Rana\Desktop\BookStore\BookStoreBackEnd\repolayer\bin\Debug\net8.0\ModelLayer.pdb
+C:\Users\Aman Rana\Desktop\BookStore\BookStoreBackEnd\repolayer\obj\Debug\net8.0\RepoLayer.csproj.AssemblyReference.cache
+C:\Users\Aman Rana\Desktop\BookStore\BookStoreBackEnd\repolayer\obj\Debug\net8.0\RepoLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aman Rana\Desktop\BookStore\BookStoreBackEnd\repolayer\obj\Debug\net8.0\RepoLayer.AssemblyInfoInputs.cache
+C:\Users\Aman Rana\Desktop\BookStore\BookStoreBackEnd\repolayer\obj\Debug\net8.0\RepoLayer.AssemblyInfo.cs
+C:\Users\Aman Rana\Desktop\BookStore\BookStoreBackEnd\repolayer\obj\Debug\net8.0\RepoLayer.csproj.CoreCompileInputs.cache
+C:\Users\Aman Rana\Desktop\BookStore\BookStoreBackEnd\repolayer\obj\Debug\net8.0\RepoLayer.csproj.Up2Date
+C:\Users\Aman Rana\Desktop\BookStore\BookStoreBackEnd\repolayer\obj\Debug\net8.0\RepoLayer.dll
+C:\Users\Aman Rana\Desktop\BookStore\BookStoreBackEnd\repolayer\obj\Debug\net8.0\refint\RepoLayer.dll
+C:\Users\Aman Rana\Desktop\BookStore\BookStoreBackEnd\repolayer\obj\Debug\net8.0\RepoLayer.pdb
+C:\Users\Aman Rana\Desktop\BookStore\BookStoreBackEnd\repolayer\obj\Debug\net8.0\RepoLayer.genruntimeconfig.cache
+C:\Users\Aman Rana\Desktop\BookStore\BookStoreBackEnd\repolayer\obj\Debug\net8.0\ref\RepoLayer.dll
